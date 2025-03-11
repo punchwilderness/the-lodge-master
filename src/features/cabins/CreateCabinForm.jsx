@@ -127,7 +127,6 @@ function CreateCabinForm({ cabinToEdit = {}, onClose }) {
       </FormRow>
 
       <FormRow>
-        {/* type is an HTML attribute! */}
         <Button variation="secondary" type="reset" onClick={() => onClose?.()}>
           Cancel
         </Button>
